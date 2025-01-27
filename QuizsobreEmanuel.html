@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="um pequeno site de html focado no aprendizagem">
+    <title>Quiz sobre Emanuel</title>
+    <header>
+    <h1> Bem vindo ao meu Quiz </h1>
+    </header>
+    <h3> aqui irei descobrir quem são os de verdade...</h3>
+    <h3>OBS:NAO ATUALIZE A PAGINA DE JEITO NENHUM!!</h3>
+</head>
+<body>
+ <!--Formulario para o usuario preencher-->
+    <section>
+    <h2> Preencha esse Formulario</h2>
+    <form>
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+            <label for="name">Digite seu Nome:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Digite seu email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="Usario">Fale um pouco sobre você:</label><br>
+            <textarea name="Usario" id="usuario" rows="6"cols="30" placeholder="OPCIONAL"></textarea>
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+</section>
+<!--Introdução do site-->
+<section>
+    <h2> como ira funcionar!</h2>
+    <p>Criei ao todo 10 Perguntas sobre mim, você ira selecionar ou digitar a resposta que você achar certa.</p>
+    <p>No Final tera uma Tabela de Pontuação onde poderá ter algumas recompensas!!</p>
+    <h3>Reserve 10 Minutos para fazer o Quiz!</h3>
+    <h3>irei te dar algumas opções de musicas!</h3> 
+</section>
+<!--Lista de Musicas-->
+<section>
+        <details>
+            <summary>Clique aqui para vê as opções</summary>
+        <input type="image" src="imagens/imagem3.png" alt="Ludmilla">
+        <p>para ouvi-la<a href="https://www.youtube.com/watch?v=3o6uCK4yz7M" target="_blank"/a> Clique aqui </a></p><br>
+        <input type="image" src="imagens/imagem2.jpg" alt="Billie">
+        <p>para ouvi-la<a href="https://www.youtube.com/watch?v=l08Zw-RY__Q" target="_blank"/a> Clique aqui</a></p><br>
+        <input type="image" src="imagens/imagem1.jpg" alt="So como Amiga">
+        <p> para ouvi-la<a href="https://www.youtube.com/watch?v=2CDkO25b6Fg" target="_blank"/a>Clique aqui </a></p>
+    </details>
+</section>
+<!--Regras-->
+<section>
+    <h2>Regras:
+        <h3>Seja Honesto</h3>
+        <h3>Quando Terminar de Responder todas as Perguntas comunicar ao Criador desse Quiz(Por enquanto)</h3>
+        <h3>não tem tempo de conclusão</h3>
+        <h3>Grave o Resultado e mande pro Criador (Por enquanto)</h3>
+        <h2>BOA SORTE!!</h2>
+    </h2>
+</section>
+<!--Pergunta 1:LegPress-->
+<section>
+    <details>
+        <summary>Pergunta numero 1</summary>
+    <h2>Primeira Pergunta:Qual peso maximo peguei no legpress da academia?</h2>
+    <form>
+        <input type="radio" name="psmx" id="psmxa" value="250">
+        <label for="psmxa">250 KG</label><br>
+        <input type="radio" name="psmx" id="psmxb"value="320">
+        <label for="psmxb">320 KG</label><br>
+        <input type="radio"name="psmx"id="psmxc"value="350">
+        <label for="psmxc">350 KG</label><br>
+        <input type="radio"name="psmx"id="psmxd" value="280">
+        <label for="psmxd">280 KG</label><br>
+        <input type="radio"name="psmx"id="psmxe" value="300">
+        <label for="psmxe">300 KG</label><br>
+        <details>
+            <summary>Se Nao souber oque é LegPress,clique aqui</summary>
+            <p><a href="https://uniguacu.com.br/wp-content/uploads/2023/12/legg-press-scaled.jpg" target="_blank"/a>LegPress</a></p>
+        </details>
+    </form>
+    </details>
+</section>
+<!--Pergunta 2:oque eu mais falo-->
+<section>
+    <details>
+        <summary>Pergunta numero 2</summary>
+    <h2>Pergunta 2: selecione oque eu mais Falo:</h2>
+    <p><strong>OBS:</strong> Selecione somente duas opções</p>
+    <p>cada opção certa valerá 0,5 pontos</p>
+    <form>
+        <input type="checkbox" name="p2" id="p2a">
+        <label for="p2a">Academia</label><br>
+        <input type="checkbox"name="p2" id="p2b">
+        <label for="p2b">Investimento</label><br>
+        <input type="checkbox" name="p2" id="p2c">
+        <label for="p2c">Jogos</label><br>
+        <input type="checkbox" name="p2" id="p2d">
+        <label for="p2d">Dragon ball</label><br>
+        <input type="checkbox" name="P2" id="p2E">
+        <label for="p2E">Estudo</label>
+    </form>
+    </details>
+</section>
+<!--Pergunta 3:que dia eu nascir-->
+<section>
+    <details>
+        <summary>Pergunta numero 3</summary>
+    <h2>Selecione o dia do meu Nascimento:</h2>
+    <form>
+        <label for="Nascimento">minha data de Nascimento:</label>
+        <input type="date" name="Nascimento" id="Nascimento">
+    </form>
+    </details>
+</section>
+<!--Pergunta 4:Personagens que gosto-->
+<section>
+    <details>
+        <summary>Pergunta numero 4</summary>
+    <h2>Quais desses Personagens eu mais gosto/admiro?</h2>
+    <p>Cada Opção certa valerá 1 ponto.</p>
+    <form>
+        <label>Personagem Masculino</label><br>
+        <select name="p4" id="p4M">
+        <option value="ChrisRedfield">Chris Redfield</option>
+        <option value="Joel Miller">Joel Miller</option>
+        <option value="Goku">Goku</option>
+        <option value="Leon Kennedy">Leon Kennedy</option>
+        </select><br>
+        <label>Personagem Feminino</label><br>
+        <select name="p4" id="p4F">
+            <option value="Lara Croft">Lara Croft</option>
+            <option value="Claire Redfield">Claire Redfield</option>
+            <option value="Ellie">Ellie</option>
+            <option value="Jill Valentine">Jill Valentine</option>
+        </select>
+    <details>
+        <summary> Se não Conhecer algum Personagem Clique aqui:</summary>
+        <h3>Basta Clica no Nome do Personagem para visualiza-lo.</h3>
+        <p><a href="https://www.residentevil.com/reverse/assets/images/character/sub/survivor01_render.png" target="_blank"/a>Chris Redfield</a></p>
+        <p><a href="https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fzquhy2i7amqb1.jpg%3Fauto%3Dwebp%26s%3D17e36b0b3db043ec42540486abe32e3539cff943" target="_blank"/a>Joel Miller</a></p>
+        <p><a href="https://elcomercio.pe/resizer/v2/YODWA6WAARAYVNV6COPUMUQFLE.jpg?auth=284742ee9496ca1638d0a0a092b1348e371d714899fe3a130db3e7e5cb1ae407&width=1200&height=810&quality=90&smart=true" target="_blank"/a>Goku</a></p>
+        <p><a href="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2019/08/resident-evil-leon-featured.jpg" target="_blank"/a>Leon Kennedy</a></p>
+        <p><a href="https://generacionxbox.com/wp-content/uploads/2023/04/tomb-raider-generacion-xbox.jpg" target="_blank"/a>Lara Croft</a></p>
+        <p><a href="https://www.residentevildatabase.com/wp-content/uploads/2018/07/re2-remake-claire-redfield-harley.jpg" target="_blank"/a>Claire Redfield</a></p>
+        <p><a href="https://files.tecnoblog.net/wp-content/uploads/2021/02/the-last-of-us-part-2-ellie-1060x596.jpg" target="_blank"/a>Ellie</a></p>
+        <p><a href="https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F7ksjbfu02oib1.jpg%3Fauto%3Dwebp%26s%3Dbbfe8c25dc156c29cdd3c64190552c6b9ed6ea20" target="_blank"/a>Jill Valentine</a></p>
+    </details>
+    </form>
+</details>
+    
+</section>
+<!--Pergunta 5:tipo de Musica-->
+<section>
+    <details>
+        <summary>Pergunta numero 5</summary>
+    <h2>Qual tipo de Musica mais Escuto?</h2>
+    <form>
+        <input type="radio" name="P5" id="P5a" value="Trap">
+        <label for="P5a">Trap</label><br>
+        <input type="radio" name="P5" id="P5b" value="Rap">
+        <label for="P5b">Rap</label><br>
+        <input type="radio" name="P5" id="P5c" value="Sertanejo">
+        <label for="P5C">Sertanejo</label><br>
+        <input type="radio" name="P5" id="P5d" value="Internacional">
+        <label for="P5d">Internacional</label><br>
+    </form>
+    </details>
+  
+</section>
+<!--Pergunta 6: qual Pessoa eu mais admiro-->
+<section>
+    <details>
+        <summary>Pergunta numero 6</summary>
+    <h2>Qual <em>Pessoa</em> eu Mais Admiro "Tirando meus Pais"?</h2>
+    <form>
+        <input type="text" name="P6" id="P6" placeholder="Digite Aqui...">
+    </form>
+    </details>
+</section>
+<!--Pergunta 7: Qual Minha Franquia Favorita-->
+<section>
+    <details>
+        <summary>Pergunta numero 7</summary>
+        <h2>Qual Minha Franquia de Jogos Favoritos?</h2>
+        <form>
+            <input type="image" src="imagens/Call.jpg" alt="Call Of Duty">
+            <input type="radio" name="P7" id="P7A" value="Call of Duty">
+            <label for="P7A">Call Of Duty</label><br>
+            <input type="image" src="imagens/FIfa.jpg" alt="FiFa">
+            <input type="radio" name="P7" id="P7B" value="Fifa">
+            <label for="P7B">Fifa</label><br>
+            <input type="image" src="imagens/Resident-Evil.jpg" alt="Resident-Evil">
+            <input type="radio" name="P7" id="P7C" value="Resident-Evil">
+            <label for="P7C">Resident-Evil</label><br>
+            <input type="image" src="imagens/The_Last_of_Us_capa.png" alt="The_Last_of_Us_capa">
+            <input type="radio" name="P7" id="P7D" value="the-last-of-us">
+            <label for="P7D">The last of us</label><br>
+        </form>
+    </details>
+</section>
+<!--Pergunta 8:Rico-->
+<section>
+    <Details>
+        <summary>Pergunta numero 8</summary>
+        <h2>Qual seria a Primeira coisa que iria fazer se eu ficasse Rico?</h2>
+        <form>
+            <input type="text" name="P8" id="P8" placeholder="Digite aqui...">
+        </form>
+    </Details>
+</section>
+<!--Pergunta 9:Medo-->
+<section>
+    <details>
+        <summary>Pergunta numero 9</summary>
+        <h2>Qual Meu Maior Medo?</h2>
+        <form>
+            <input type="text" name="P9" id="P9" placeholder="Digite aqui....">
+        </form>
+    </details>
+</section>
+<!--Pergunta 10:Carros-->
+<section>
+    <details>
+        <summary>Pergunta Numero 10</summary>
+        <h2>Qual seria Meu Carro Dos Sonhos</h2>
+        <form>
+          <input type="image" src="imagens/Ram.png" alt="Ram">
+          <input type="radio" name="P10" id="P10A" value="Ram">
+          <label for="P10A">Ram</label><br>
+          <input type="image" src="imagens/Porshe.jpg" alt="Porshe">
+          <input type="radio" name="P10" id="P10B" value="Porshe">
+          <label for="P10b">porsche</label><br>
+          <input type="image" src="imagens/Lamb.jpg" alt="lamborghini">
+          <input type="radio" name="P10" id="P10C" value="lamborghini">
+          <label for="P10C">lamborghini</label><br>
+        </form>
+    </details>
+</section>
+<!--Gabarito-->
+<section>
+    <h2>Parabéns!!! Chegou ao fim do Quiz!!!</h2>
+    <h3> Agora veremos sua Pontuação</h3>
+    <h3>Cada Pergunta valerá 1 ponto</h3>
+    <details>
+        <summary>CLique Aqui Para Vê o Gabarito</summary>
+        <ol>
+            <li>320Kg</li>
+            <li>Academia e Investimento</li>
+            <li>06/04/2005</li>
+            <li>Chris Redfield e Claire Redfield</li>
+            <li>Internacional</li>
+            <li>Cristiano Ronaldo</li>
+            <li>Resident Evil</li>
+            <li>Iria Pra Alemanha Assistir Bayern</li>
+            <li>Ficar Sozinho</li>
+            <li>RAM</li>
+        </ol>
+        <table border="2">
+            <thead>
+                <th>Pontuação</th>
+                <th>Resultado</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0-2</td>
+                    <td>Você Realmente me conhece?</td>
+                </tr>
+                <tr>
+                    <td>3-5</td>
+                    <td>Nem mal Nem bom Apenas um "OK"</td>
+                </tr>
+                <tr>
+                    <td>6-8</td>
+                    <td>Nada Mal *Carinha FELIZ*</td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td>Obrigado por se dedicar a mim *carinha de Choro*</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
+</section>    
+</body>
+<footer>
+
+</footer>
+</html>
